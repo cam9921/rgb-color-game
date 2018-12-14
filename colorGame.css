@@ -1,0 +1,84 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family:"Brush Script MT";
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	line-height: 1.2;
+	font-weight: normal;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 10px 0;
+	transition: all 0.8s;
+	text-shadow: 2px 2px 4px black;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+	transition: all 0.3s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+}
+
+button:hover {
+	color: white;
+	background: lightblue;
+}
+
+.selected {
+	background: steelblue;
+	color: white;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25px;
+	transition: background 0.8s;
+	-webkit-transition: background 0.8s;
+	-moz-transition: background 0.8s;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+#colorDisplay {
+	font-size: 150%;
+	transition: all 2.0s;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	width: 40%;
+	letter-spacing: 6px;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	font-size: 125%;
+}
+
